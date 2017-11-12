@@ -20,10 +20,9 @@ class MainActivity : AppCompatActivity() {
         val toolbar = find<android.support.v7.widget.Toolbar>(R.id.toolbar)
         val container = find<CoordinatorLayout>(R.id.container)
 
+
         setSupportActionBar(toolbar)
-
-
-
+        toolbar.setTitle(R.string.app_name)
     }
 
 

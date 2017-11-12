@@ -8,7 +8,7 @@
     android:layout_marginRight="12dp"
     android:id="@+id/follow_series_row">
 
-    <com.facebook.drawee.view.DraweeView
+    <com.facebook.drawee.view.SimpleDraweeView
         android:layout_width="100dp"
         android:layout_height="150dp"
         fresco:roundedCornerRadius="4dp"
