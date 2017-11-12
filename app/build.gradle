@@ -32,7 +32,7 @@ dependencies {
     implementation 'com.android.support:support-v4:26.1.0'
     implementation "org.jetbrains.anko:anko:$anko_version"
     implementation 'com.facebook.fresco:fresco:1.5.0'
-    implementation group: 'info.movito', name: 'themoviedbapi', version:'1.6' // MovieDBAPI
+    implementation group: 'info.movito', name: 'themoviedbapi', version: '1.6' // MovieDBAPI
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'

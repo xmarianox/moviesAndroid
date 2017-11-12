@@ -3,4 +3,6 @@
 
     <!-- series -->
     <string name="follow_list_label">SERIES QUE SIGO</string>
+    <string name="recommended_list_label">RECOMENDADAS</string>
+
 </resources>

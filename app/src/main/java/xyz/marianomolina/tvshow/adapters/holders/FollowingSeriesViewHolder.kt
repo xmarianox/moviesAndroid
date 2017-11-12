@@ -11,16 +11,13 @@ import kotlinx.android.synthetic.main.follow_series_row.view.*
  * Twitter: @xsincrueldadx
  */
 class FollowingSeriesViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-    private var cardview = view.follow_series_row
+    // private var cardview = view.follow_series_row
     private var image = view.follow_series_row_image
 
     fun bindFollowingSerie(serie: TvSeries) {
         image.contentDescription = serie.originalName
         val uri = Uri.parse("https://image.tmdb.org/t/p/w185${serie.posterPath}")
         image.setImageURI(uri)
-        // item
-        // Log.d("Row", "Name: ${serie.originalName}")
-
     }
 
 }

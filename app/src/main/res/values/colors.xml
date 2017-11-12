@@ -4,5 +4,8 @@
     <color name="colorPrimaryDark">#e6000000</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorWindow">#1b1b1b</color>
+    <color name="colorTexts">#FFFFFF</color>
     <color name="colorTexts56">#8CFFFFFF</color>
+    <color name="colorLabelTag">#CC1e2a31</color>
+    <color name="colorRecommendedName">#e1f6ff</color>
 </resources>
